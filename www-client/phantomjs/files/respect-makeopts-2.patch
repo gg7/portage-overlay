@@ -1,0 +1,22 @@
+--- src/qt/preconfig.sh	2012-11-18 04:53:45.920916965 +0000
++++ src/qt/preconfig.sh	2012-11-18 04:54:45.505217377 +0000
+@@ -85,7 +85,7 @@
+             QT_CFG+=" $1"
+             shift;;
+-        "--jobs")
++        "--makeopts")
+             shift
+-            COMPILE_JOBS=$1
++            MAKEOPTS=$1
+             shift;;
+         "--help")
+@@ -105,5 +105,5 @@
+ 
+ # For parallelizing the bootstrapping process, e.g. qmake and friends.
+-export MAKEFLAGS=-j$COMPILE_JOBS
++export MAKEFLAGS=$MAKEOPTS
+ 
+ ./configure -prefix $PWD $QT_CFG
+-make -j$COMPILE_JOBS
++make $MAKEOPTS
+ 
