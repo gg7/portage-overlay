@@ -39,6 +39,7 @@ src_compile() {
 src_install() {
 	insinto ${EROOT}usr/share/${PF}
 	doins -r modules
+	doins package.json
 
 	insinto ${EROOT}usr/share/${PF}/bin
 	doins bin/bootstrap.js
