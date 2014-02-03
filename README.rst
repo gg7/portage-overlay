@@ -5,7 +5,7 @@ Installation
 
 .. code :: sh
 
-    layman --overlays 'https://github.com/gg7/gentoo-overlay/raw/master/overlay.xml' \
+    layman --overlays 'https://github.com/gg7/gentoo-overlay/raw/master/repositories.xml' \
            --fetch \
            --add 'gg7'
 
