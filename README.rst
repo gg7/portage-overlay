@@ -3,11 +3,12 @@ Feedback is welcome :-)
 Installation
 ============
 
+Add 'https://github.com/gg7/gentoo-overlay/raw/master/repositories.xml' to 'overlays' in
+"/etc/layman/layman.cfg". Then use `layman` to fetch and install the overlay: 
+
 .. code :: sh
 
-    layman --overlays 'https://github.com/gg7/gentoo-overlay/raw/master/repositories.xml' \
-           --fetch \
-           --add 'gg7'
+    layman --fetch --add 'gg7'
 
 
 License
