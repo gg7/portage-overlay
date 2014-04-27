@@ -15,7 +15,7 @@ After you have configured Layman, add
 'https://github.com/gg7/gentoo-overlay/raw/master/repositories.xml' to
 'overlays' in '/etc/layman/layman.cfg', like this:
 
-.. code :: cfg
+.. code ::
 
     #-----------------------------------------------------------
     # URLs of the remote lists of overlays (one per line) or
