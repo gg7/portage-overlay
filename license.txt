@@ -1,21 +1,3 @@
-Feedback is welcome :-)
-
-Installation
-============
-
-Add 'https://github.com/gg7/gentoo-overlay/raw/master/repositories.xml' to 'overlays' in
-"/etc/layman/layman.cfg". Then use `layman` to fetch and install the overlay: 
-
-.. code :: sh
-
-    layman --fetch --add 'gg7'
-
-
-License
-=======
-
-The MIT License (MIT)
-
 Copyright (c) 2014 gg7
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
