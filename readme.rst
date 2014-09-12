@@ -15,7 +15,7 @@ After you have configured Layman, run
 
 .. code :: sh
 
-    # layman --fetch --add gg7 --overlays "https://github.com/gg7/portage-overlay/raw/master/repositories.xml"
+    layman --fetch --add gg7 --overlays "https://github.com/gg7/portage-overlay/raw/master/repositories.xml"
 
 Then use `layman` to fetch and install the overlay:
 
