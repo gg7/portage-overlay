@@ -11,7 +11,7 @@ SRC_URI="https://github.com/chrippa/livestreamer/archive/v${PV}.tar.gz -> ${P}.t
 PYTHON_COMPAT=( python{3_3,3_4} )
 inherit eutils distutils-r1
 
-KEYWORDS="~amd64 ~mips ~x86"
+KEYWORDS="amd64 ~mips x86"
 LICENSE="Apache-2.0 BSD-2 MIT-with-advertising"
 SLOT="0"
 
